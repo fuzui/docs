@@ -37,6 +37,7 @@ module.exports = {
 				sidebarDepth: 2,
 				sidebar: {
 					'/gblog-wx/': getGblogwxSidebar('基础', '高级配置'),
+					'/windpower/': getWindpowerSidebar('项目说明','TrendDB数据库','常见问题')
 				}
 			}
 		},
@@ -61,20 +62,49 @@ module.exports = {
 
 function getGblogwxSidebar(groupA, groupB) {
 	return [{
-			title: groupA,
-			collapsable: false,
-			children: [
-				''
-			]
-		},
-		{
-			title: groupB,
-			collapsable: false,
-			children: [
-				'posters-share',
-				'custom-style',
-				'subscribe'
-			]
-		}
-	]
+		title: groupA,
+		collapsable: false,
+		children: [
+			'',
+			'show',
+			'use',
+			'directory',
+			'function'
+		]
+	},
+	{
+		title: groupB,
+		collapsable: false,
+		children: [
+			'posters-share',
+			'custom-style',
+			'subscribe'
+		]
+	}
+]
+}
+
+function getWindpowerSidebar(groupA, groupB,groupC) {
+	return [{
+		title: groupA,
+		collapsable: false,
+		children: [
+			''
+		]
+	},
+	{
+		title: groupB,
+		collapsable: false,
+		children: [
+			'databaseInstall'
+		]
+	},
+	{
+		title: groupC,
+		collapsable: false,
+		children: [
+			'question-and-answer'
+		]
+	}
+]
 }
