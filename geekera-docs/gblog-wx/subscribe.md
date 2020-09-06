@@ -18,31 +18,31 @@ npm install
 
 打开微信后台，左侧找到订阅消息，点击添加
 
-![](https://images.gitee.com/uploads/images/2020/0613/003303_80b6a978_4988475.png)
+![](https://oss.fuzui.net/img/003303_80b6a978_4988475.png)
 
 
 
 搜索“留言审核信息”和“新作品推荐提醒”
 
-![](https://images.gitee.com/uploads/images/2020/0613/003303_fcfd710c_4988475.png)
+![](https://oss.fuzui.net/img/003303_fcfd710c_4988475.png)
 
 
 
 在“留言审核通知”选用栏**依次**勾选`留言内容`、`回复内容`、`审核状态`、`回复人`、`文章标题`；
 
-![](https://images.gitee.com/uploads/images/2020/0613/003303_f7c54379_4988475.png)
+![](https://oss.fuzui.net/img/003303_f7c54379_4988475.png)
 
 
 
 在“新作品推荐提醒”选用栏**依次**勾选`作品名称`、`发表时间`、`作者`；
 
-![](https://images.gitee.com/uploads/images/2020/0613/003303_8a701a57_4988475.png)
+![](https://oss.fuzui.net/img/003303_8a701a57_4988475.png)
 
 
 
 提交完成后会出现两个模板：
 
-![](https://images.gitee.com/uploads/images/2020/0613/003303_689c7d1e_4988475.png)
+![](https://oss.fuzui.net/img/003303_689c7d1e_4988475.png)
 
 记下这两个模板ID。
 

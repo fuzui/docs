@@ -54,20 +54,20 @@ windows版、linux版（centos7.2 、ubuntu16.04）
 ## 二、安装步骤
 ### 1.解压
 下载下来为一个trendDB压缩包，将其解压并放到其自定义路径下，建议磁盘预留空间10G+。
-![解压](https://images.gitee.com/uploads/images/2020/0223/175147_06ceafec_4988475.gif "111.gif")
+![解压](https://oss.fuzui.net/img/175147_06ceafec_4988475.gif "111.gif")
 
 ### 2.安装服务
 点击进入TrendDB目录，按顺序运行以下：（管理员权限运行）
 * 运行Lic-Install.bat
 * 运行DB-Install.bat
 * 运行trenddb_server.exe
-![安装服务](https://images.gitee.com/uploads/images/2020/0223/175804_910b7006_4988475.png "安装服务.png")
+![安装服务](https://oss.fuzui.net/img/175804_910b7006_4988475.png "安装服务.png")
 * 右击我的电脑，管理，在服务下可看到是否已经启动
-![查看服务](https://images.gitee.com/uploads/images/2020/0223/175843_a302063d_4988475.png "安装服务2.png")
+![查看服务](https://oss.fuzui.net/img/175843_a302063d_4988475.png "安装服务2.png")
 
 ### 3.设置环境变量
 在环境变量PATH中添加trenddb根目录。
-![环境变量设置](https://images.gitee.com/uploads/images/2020/0223/180844_666db1fc_4988475.png "环境变量.png")
+![环境变量设置](https://oss.fuzui.net/img/180844_666db1fc_4988475.png "环境变量.png")
 ### 4.运行客户端
 点击进入TrendDB目录，运行trenddb_view.exe
 输入
@@ -76,7 +76,7 @@ windows版、linux版（centos7.2 、ubuntu16.04）
 用户名 admin
 密码 123456
 如果登录成功则代表安装完成！
-![登录客户端](https://images.gitee.com/uploads/images/2020/0223/180225_3846f159_4988475.png "登录客户端.png")
+![登录客户端](https://oss.fuzui.net/img/180225_3846f159_4988475.png "登录客户端.png")
 
 ## 三、联系
 如安装过程中有问题请加Q群联系：826927997
