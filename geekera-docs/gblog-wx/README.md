@@ -9,7 +9,7 @@ GBlog-wx：微信小程序博客
 
 > 我们只是搬运工，将color-ui样式与halo接口结合了一下。
 >
-> 开源地址：[Github](https://github.com/GeekEra/GBlog-wx) | [Gitee](https://gitee.com/GeekEra/GBlog-wx)
+> 开源地址：[Github](https://github.com/fuzui/GBlog-wx) | [Gitee](https://gitee.com/fuzui/GBlog-wx)
 
 
 [halo](https://halu.run)作为后台，小程序样式采用[color-ui组件](https://www.color-ui.com/)。
@@ -29,4 +29,4 @@ GBlog-wx：微信小程序博客
 
 如果您发现了什么bug，或者有什么界面建议或意见，
 
-欢迎 [issue](https://github.com/GeekEra/GBlog-wx/issues)，当然也可以直接点小程序关于栏中的“联系我”或“意见反馈”或“留言”。
+欢迎 [issue](https://github.com/fuzui/GBlog-wx/issues)，当然也可以直接点小程序关于栏中的“联系我”或“意见反馈”或“留言”。

@@ -13,7 +13,7 @@ title: 搭建
 * 拉取代码
 
   ```shell
-  git clone git@github.com:GeekEra/GBlog-wx.git
+  git clone git@github.com:fuzui/GBlog-wx.git
   ```
 
 * 导入工具
