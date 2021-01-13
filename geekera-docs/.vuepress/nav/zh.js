@@ -1,5 +1,9 @@
 module.exports = [
   {
+    text: 'RuoYi-Antdv',
+    link: '/RuoYi-Antdv/'
+  },
+  {
     text: 'GBlog-wx',
     link: '/gblog-wx/'
   },

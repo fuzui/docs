@@ -36,6 +36,7 @@ module.exports = {
 				nav: require('./nav/zh'),
 				sidebarDepth: 2,
 				sidebar: {
+					'/RuoYi-Antdv/': getRuoYiAntdvSidebar('基础', '其他'),
 					'/gblog-wx/': getGblogwxSidebar('基础', '高级配置'),
 					'/windpower/': getWindpowerSidebar('项目说明','TrendDB数据库','常见问题')
 				}
@@ -60,6 +61,28 @@ module.exports = {
 	]
 }
 
+function getRuoYiAntdvSidebar(groupA, groupB) {
+	return [{
+		title: groupA,
+		collapsable: false,
+		children: [
+			'',
+			'show',
+			'use',
+			'directory',
+			'function'
+		]
+	},
+	{
+		title: groupB,
+		collapsable: false,
+		children: [
+			'update-log',
+			'dev-plan'
+		]
+	}]
+}
+
 function getGblogwxSidebar(groupA, groupB) {
 	return [{
 		title: groupA,
@@ -80,8 +103,7 @@ function getGblogwxSidebar(groupA, groupB) {
 			'custom-style',
 			'subscribe'
 		]
-	}
-]
+	}]
 }
 
 function getWindpowerSidebar(groupA, groupB,groupC) {
