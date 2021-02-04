@@ -1,11 +1,8 @@
----
-title: 简介
----
+# 简介
 <h1 align="center">RuoYi-Antdv</h1>
 
 > RuoYi-Antdv 是RuoYi-Vue和Ant Design Vue Pro的结合。
 
-<p align="center">
 <p align="center">
  <a href="https://gitee.com/fuzui/RuoYi-Antdv" target="_blank"><img src="https://gitee.com/fuzui/RuoYi-Antdv/badge/star.svg?theme=dark" alt="Build Status"></a>
  <a href="https://github.com/fuzui/RuoYi-Antdv" target="_blank"><img src="https://img.shields.io/github/stars/fuzui/RuoYi-Antdv.svg?style=social" alt="Build Status"></a>
