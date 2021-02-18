@@ -36,7 +36,18 @@ title: 搭建
 
    > 打开浏览器访问 [http://localhost:8000](http://localhost:8080/)
 
+
+
+## 注意事项
+
+* 若需使用代码生成，请按照文档描述修改：
+  [代码生成前端适配](https://gitee.com/fuzui/RuoYi-Antdv/tree/master/docs/gen) 
+
+  
+
 ## 自定义图标
+
+
 
 ## 优化建议
 * 线上环境去除主题配置
