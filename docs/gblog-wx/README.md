@@ -23,7 +23,7 @@ GBlog-wx：微信小程序博客
 * [halo](https://github.com/halo-dev/halo) 一个优秀的开源博客发布应用
 * [ColorUI](https://github.com/weilanwl/ColorUI) 鲜亮的高饱和色彩，专注视觉的小程序组件库
 * [Parser](https://github.com/jin-yufeng/Parser) 小程序富文本插件（html 渲染）
-* [Hux Blog](https://huangxuan.me/)的背景图
+* [Painter](https://github.com/Kujiale-Mobile/Painter) 小程序生成图片库，轻松通过 json 方式绘制一张可以发到朋友圈的图片
 
 ### 联系
 

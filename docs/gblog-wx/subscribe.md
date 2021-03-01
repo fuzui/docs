@@ -1,8 +1,14 @@
 ---
-title: 订阅消息
+title: 订阅消息(仅h1.4.2)
 ---
->开启订阅，此功能需启动node项目。[GBlog-wxpush](https://gitee.com/ufec/GBlog-wxpush)
->
+ <p style="color:red;"> 声明： </p>
+
+**因此订阅消息过重，已经在最新代码中去除，该功能仅适用[h1.4.2版本](https://gitee.com/fuzui/GBlog-wx/tree/h1.4.2/)** 
+
+
+
+开启订阅，此功能需启动node项目。[GBlog-wxpush](https://gitee.com/ufec/GBlog-wxpush)
+
 >感谢[ufec](https://gitee.com/ufec)对订阅相关功能的实现。
 
 ## 1.下载
