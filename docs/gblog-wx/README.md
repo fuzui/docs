@@ -3,8 +3,9 @@
 <p align="center">
  <img src="https://gitee.com/fuzui/GBlog-wx/badge/star.svg?theme=dark" alt="Build Status">
  <img src="https://img.shields.io/github/stars/fuzui/GBlog-wx.svg?style=social" alt="Build Status">
- <img src="https://img.shields.io/badge/halo-1.4.1-brightgreen" alt="Build Status">
+ <img src="https://img.shields.io/badge/halo-1.4.5-brightgreen" alt="Build Status">
 </p>
+
 GBlog-wx：微信小程序博客
 
 > 我们只是搬运工，将color-ui样式与halo接口结合了一下。
@@ -23,7 +24,7 @@ GBlog-wx：微信小程序博客
 * [halo](https://github.com/halo-dev/halo) 一个优秀的开源博客发布应用
 * [ColorUI](https://github.com/weilanwl/ColorUI) 鲜亮的高饱和色彩，专注视觉的小程序组件库
 * [Parser](https://github.com/jin-yufeng/Parser) 小程序富文本插件（html 渲染）
-* [Painter](https://github.com/Kujiale-Mobile/Painter) 小程序生成图片库，轻松通过 json 方式绘制一张可以发到朋友圈的图片
+* [mp-html](https://github.com/jin-yufeng/mp-html) 小程序富文本组件，支持渲染和编辑 html，支持在微信、QQ、百度、支付宝、头条和 uni-app 平台使用
 
 ### 联系
 
