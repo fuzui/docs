@@ -56,6 +56,14 @@ title: 搭建
 
   ![](https://oss.fuzui.net/img/20200628014304.png)
 
+* 设置小程序最低基础库版本要求
+
+  在[微信公众平台](https://mp.weixin.qq.com/)中，`设置 - 基本设置 - 基础库最低版本设置`进行配置，保存为2.10.4版本。
+
+  > 原因：[《小程序登录、用户信息相关接口调整说明》](https://developers.weixin.qq.com/community/develop/doc/000cacfa20ce88df04cb468bc52801)
+
+  ![](https://oss.fuzui.net/img/20210326002230.png)
+
 
 
 *当以上配置完成后，便可开启你的小程序之旅了*

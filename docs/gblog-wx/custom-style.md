@@ -3,26 +3,50 @@ title: 自定义样式
 ---
 * 自定义文章解析样式
 
-在`api.js`文件中，修改`ParserStyle`.
+  在`api.js`文件中，修改`MpHtmlStyle`.
 
-```javascript
-const ParserStyle = {
-  table: 'border-collapse:collapse;border-top:1px solid gray;border-left:1px solid gray;margin: 28rpx 0;',
-  th: 'border-right:1px solid gray;border-bottom:1px solid gray;background: #ccc;',
-  td: 'border-right:1px solid gray;border-bottom:1px solid gray;',
-  blockquote: 'background-color:#e7f6ed;border-left:6px solid #4caf50;color:rgb(136, 136, 136);padding: 20rpx 40rpx 20rpx 30rpx;margin: 28rpx 0;',
-  ul: 'padding-left: 25px;',
-  ol: 'padding-left: 25px;',
-  h1: 'font-size: 1.5em;line-height: 50px;',
-  h2: 'font-size: 1.17em;line-height: 40px;',
-  h3: 'font-size: 0.83em;line-height: 30px;',
-  h4: 'font-size: 0.67em;line-height: 30px;',
-  h5: 'font-size: 0.50em;line-height: 30px;'
-}
+  ```javascript
+  //文章、日记自定义样式
+  const commonTagStyle = {
+    table: 'border-collapse:collapse;border-top:1px solid gray;border-left:1px solid gray;margin: 28rpx 0;',
+    th: 'border-right:1px solid gray;border-bottom:1px solid gray;background: #ccc;',
+    td: 'border-right:1px solid gray;border-bottom:1px solid gray;',
+    blockquote: 'background-color:#e7f6ed;border-left:6px solid #4caf50;color:rgb(136, 136, 136);padding: 20rpx 40rpx 20rpx 30rpx;margin: 28rpx 0;',
+    ul: 'padding-left: 25px;',
+    ol: 'padding-left: 25px;',
+    h1: 'font-size: 1.5em;line-height: 50px;',
+    h2: 'font-size: 1.17em;line-height: 40px;',
+    h3: 'font-size: 0.83em;line-height: 30px;',
+    h4: 'font-size: 0.67em;line-height: 30px;',
+    h5: 'font-size: 0.50em;line-height: 30px;'
+  }
+  const commentTagStyle = {
+    p: 'margin: 0 0;'
+  }
+  const MpHtmlStyle = {
+    tagStyle: commonTagStyle,
+    containerStyle: 'padding: 12px;font-size: 15px;line-height: 25px',
+    commentTagStyle: mergeJsonObject(commonTagStyle, commentTagStyle),
+    commentContainerStyle: '',
+    journalTagStyle: commentTagStyle,
+    journalContainerStyle: '',
+    loadingImage: '/images/default/image-loading.svg',
+    errorImage: '/images/default/image-error.svg'
+  }
+  
+  ```
 
-```
+  
 
-`table`、`th`、`td`为表格样式；`pre`为代码块样式；`blockquote`为引用样式，你也可以增加更多，例如`tr`、`a`、`h1`等。
+  在`MpHtmlStyle`中，分两类样式，`tagStyle`设置标签的默认样式，`containerStyle`设置容器的样式：
+
+  * `tagStyle`、`containerStyle`为文章样式
+  * `commentTagStyle`、`commentContainerStyle`为评论样式
+  * `journalTagStyle`、`journalContainerStyle`为日记样式
+  * `loadingImage`为图片加载过程中的占位图
+  * `errorImage`为图片出错时的占位图
+
+  > 上述示例中`table`、`th`、`td`为表格样式；`pre`为代码块样式；`blockquote`为引用样式，你也可以增加更多，例如`tr`、`a`、`h1`等。
 
 
 

@@ -20,7 +20,7 @@ git clone https://gitee.com/ufec/GBlog-wxpush.git
 npm install
 ```
 
-## 2.配置小程序订阅末班
+## 2.配置小程序订阅模板
 
 打开微信后台，左侧找到订阅消息，点击添加
 

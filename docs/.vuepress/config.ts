@@ -63,6 +63,11 @@ const config: UserConfig<DefaultThemeOptions> = {
               isGroup: true,
               children: ["posters-share.md", "custom-style.md", "subscribe.md"],
             },
+            {
+              text: "其他",
+              isGroup: true,
+              children: ["dev-plan.md", "update-log.md"],
+            },
           ],
           "/windpower/": [
             {
