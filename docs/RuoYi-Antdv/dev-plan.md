@@ -7,6 +7,7 @@ title: 开发计划
 
 * :black_square_button: 表格支持隐藏、显示等
 * :black_square_button: 调整页签样式 
+* :black_square_button: `markdown`编辑器完善
 * :black_square_button: 路由缓存灵活使用
 * :white_check_mark: 代码生成
 * :white_check_mark: ​去除多余依赖

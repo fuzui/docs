@@ -6,10 +6,11 @@
 <p align="center">
  <a href="https://gitee.com/fuzui/RuoYi-Antdv" target="_blank"><img src="https://gitee.com/fuzui/RuoYi-Antdv/badge/star.svg?theme=dark" alt="Build Status"></a>
  <a href="https://github.com/fuzui/RuoYi-Antdv" target="_blank"><img src="https://img.shields.io/github/stars/fuzui/RuoYi-Antdv.svg?style=social" alt="Build Status"></a>
- <a href="https://gitee.com/y_project/RuoYi-Vue" target="_blank"><img src="https://img.shields.io/badge/RuoYi Vue-3.3.0-brightgreen" alt="Build Status"></a>
+ <a href="https://gitee.com/y_project/RuoYi-Vue" target="_blank"><img src="https://img.shields.io/badge/RuoYi Vue-3.4.0-brightgreen" alt="Build Status"></a>
  <a href="https://github.com/vueComponent/ant-design-vue" target="_blank"><img src="https://img.shields.io/badge/Ant Design Vue-1.7.2-brightgreen" alt="Build Status"></a>
  <a href="https://github.com/vueComponent/ant-design-vue-pro" target="_blank"><img src="https://img.shields.io/badge/Ant Design Vue Pro-3.0.0-brightgreen" alt="Build Status"></a>
 </p>
+
 
 ------------------------------
 
