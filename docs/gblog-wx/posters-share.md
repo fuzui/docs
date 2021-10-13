@@ -7,7 +7,7 @@ title: 海报分享
 
 在`config/api.js`文件中，修改如下代码
 ```json
-const ShareConfig = {
+const CloudConfig = {
   isOpen: true,
   env: 'fuzui',  //云环境ID
   shareOpen: true,  // 海报分享开启
