@@ -61,7 +61,7 @@ const config: UserConfig<DefaultThemeOptions> = {
             {
               text: "高级配置",
               isGroup: true,
-              children: ["posters-share.md", "custom-style.md", "subscribe.md"],
+              children: ["open-cloud.md", "posters-share.md", "custom-random-graph.md", "custom-style.md", "subscribe.md"],
             },
             {
               text: "其他",

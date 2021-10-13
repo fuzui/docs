@@ -4,7 +4,7 @@ title: 搭建
 
 ## 后台搭建
 
-采用halo搭建，具体可查看halo文档：https://halo.run
+采用halo搭建，具体可查看[halo文档](https://halo.run)
 
 > Halo 是一款现代化的个人独立博客系统
 
