@@ -26,9 +26,9 @@ title: 搭建
 
 * 配置
 
-  将`config`中有个`api-tmp.js`文件重命名为`api.js`。
+  将`miniprogram/config`中`api-tmp.js`文件复制并重命名为`api.js`。
 
-  修改如下配置：
+  修改`api.js`如下配置：
 
   ```javascript
   const ApiBaseUrl = '';//生产上

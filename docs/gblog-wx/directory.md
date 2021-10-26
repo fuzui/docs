@@ -5,10 +5,12 @@ title: 代码结构
 ```
 GBLOG-WX     
 ├── cloudfunctions                  // 云服务
+│      └── check_message            // 云函数 敏感词汇过滤
 │      └── get_qrcode               // 云函数 小程序码生成
-│      └── get_random_graph         // 云函数 小程序码生成
+│      └── get_random_graph         // 云函数 自定义随机图
 ├── miniprogram
 │      └── components               // 自定义组件
+│              └── admin-login      // 后台登陆页
 │              └── article-list     // 文章列表
 │              └── authorize        // 微信登录
 │              └── comment          // 评论列表
@@ -25,5 +27,8 @@ GBLOG-WX
 │      └── styles                   // 样式
 │              └── colorui          // color-ui组件库 
 │      └── utils                    // 公用js
+├── extension                       // 扩展资源
+│      └── cloud                    // 云开发数据
+
 ```
 

@@ -10,8 +10,6 @@ title: 开启云函数
 const CloudConfig = {
   isOpen: true,
   env: 'fuzui',  //云环境ID
-  shareOpen: true,  // 海报分享开启
-  randomGraphOpen: true   // 随机图开启（内容管理）
 }
 ```
 修改isOpen为`true`
