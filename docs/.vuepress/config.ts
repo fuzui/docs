@@ -66,7 +66,7 @@ const config: UserConfig<DefaultThemeOptions> = {
             {
               text: "其他",
               isGroup: true,
-              children: ["dev-plan.md", "update-log.md"],
+              children: ["update-log.md"],
             },
           ],
           "/windpower/": [
