@@ -1,19 +1,11 @@
 ---
 title: 开启云函数
 ---
->配置小程序云服务（若不使用海报功能和自定义随机图可跳过）
+>配置小程序云服务（若不使用海报分享、评论过滤、免密登录功能可跳过）
 
 ​	1. 开启
 
-在`config/api.js`文件中，修改如下代码
-```json
-const CloudConfig = {
-  isOpen: true,
-  env: 'fuzui',  //云环境ID
-}
-```
-修改isOpen为`true`
-(env为函数ID在下方提到)
+在后台主题设置中通用设置开启云函数。
 
 ​	2. 如未配置在控制台会出现如下提示：
 
@@ -33,5 +25,9 @@ const CloudConfig = {
 
 ​	5. 在`config/api.js`文件中修改刚刚设置云服务的环境ID
 
-​		`1.`中所提到的`env`
+```js
+const Config = {
+  cloudEnv: '' // 云环境ID
+}
+```
 

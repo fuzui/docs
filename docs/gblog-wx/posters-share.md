@@ -3,18 +3,9 @@ title: 海报分享
 ---
 >首先[开启并配置云环境](./open-cloud.md)（若不使用海报分享功能可跳过）
 
-	1. 开启
+1. 开启
 
-在`config/api.js`文件中，修改如下代码
-```json
-const CloudConfig = {
-  isOpen: true,
-  env: 'fuzui',  //云环境ID
-  shareOpen: true,  // 海报分享开启
-}
-```
-修改shareOpen为`true`
-
+在后台主题设置中通用设置开启海报分享。
 2. 上传云函数
 
 右击cloudfunctions下get_qrcode文件夹，点击“创建并部署：云端安装依赖(不上传node_moudles)”，等待完成。

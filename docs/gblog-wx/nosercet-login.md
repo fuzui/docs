@@ -21,16 +21,6 @@ title: 后台免密登陆
 
 
 
-2. 配置
+2. 开启
 
-在`config/api.js`文件中，修改如下代码
-
-```json
-const CloudConfig = {
-  isOpen: true,
-  env: 'fuzui',  //云环境ID
-  adminUser: false     // 后台免密登陆
-}
-```
-
-修改adminUser为`true`
+在后台主题设置中通用设置开启免密登录。
